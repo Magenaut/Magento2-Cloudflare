@@ -1,0 +1,22 @@
+{
+    "name": "magenaut/module-magento2cloudflare",
+    "description": "Yet another extension that interacts with Cloudflare API v4",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "team@magenaut.com",
+            "name": "Magenaut Team"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magenaut\\Magento2Cloudflare\\": ""
+        }
+    }
+}
